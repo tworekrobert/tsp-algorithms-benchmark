@@ -1,0 +1,26 @@
+# Compiled binaries (see each stage's Makefile)
+/stage1_exact_heuristics/tsp_stage1
+/stage2_branch_and_bound/tsp_bnb
+/stage4_genetic_algorithm/tsp_ga
+
+# Stage 3 build directory (objects and the pea_sa binary)
+/stage3_simulated_annealing/build/
+
+# Output of `make smoke`, removed again by `make clean`
+/stage1_exact_heuristics/smoke_results.csv
+/stage2_branch_and_bound/smoke_result_task2.csv
+/stage3_simulated_annealing/results/sa_smoke_results.csv
+/stage3_simulated_annealing/results/sa_smoke_summary.csv
+/stage4_genetic_algorithm/results/smoke_ga_results.csv
+/stage4_genetic_algorithm/results/smoke_tours/
+
+# Generic build leftovers
+*.o
+*.obj
+*.exe
+*.dSYM/
+
+# Editors and OS
+.DS_Store
+.vscode/
+.idea/
