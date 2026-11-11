@@ -46,7 +46,7 @@ The original coursework has been reorganized into a GitHub-ready portfolio repos
 | Input handling | Simple matrices, generated complete graphs, TSPLIB TSP, TSPLIB ATSP and Waterloo VLSI-style instances. |
 | Measurement | Runtime, tour length, relative error, search-tree statistics, generation counts and group summaries. |
 | Reproducibility | Text configs and fixed seeds are included for each stage. |
-| Reporting | CSV outputs, charts and original academic PDF reports are included in `docs/reports/`. |
+| Reporting | CSV outputs, charts and original academic PDF reports are included in `reports/`. |
 
 ## Tech Stack
 
@@ -117,10 +117,9 @@ Detailed testing notes are available in [Polish testing documentation](docs/TEST
 tsp-algorithms-benchmark/
 ├── docs/
 │   ├── PROJECT_DOCUMENTATION_PL.md
-│   ├── GITHUB_PUBLISHING_PL.md
 │   ├── TESTING_PL.md
-│   ├── assets/
-│   └── reports/
+│   └── assets/
+├── reports/
 ├── stage1_exact_heuristics/
 ├── stage2_branch_and_bound/
 ├── stage3_simulated_annealing/
