@@ -4,7 +4,7 @@
 
 `tsp-algorithms-benchmark` to czteroetapowe badanie algorytmów dla problemu komiwojażera (`TSP`) oraz jego wariantu asymetrycznego (`ATSP`). Projekt pokazuje przejście od metod dokładnych i prostych heurystyk do metaheurystyk uruchamianych na większych instancjach. Właściwe programy benchmarkowe są zaimplementowane w C++.
 
-Repozytorium zostało odświeżone pod publikację na GitHubie: stare katalogi robocze zostały rozdzielone na spójne etapy, dodano wspólne README, dokumentację, checklistę publikacji, testy smoke, raporty PDF, wykresy i rootowy `Makefile`.
+Projekt powstał na kursie Projektowanie i analiza algorytmów. Każdy etap ma własny katalog, konfiguracje, wyniki w CSV i wykresy.
 
 ## Zakres funkcjonalny
 
@@ -174,36 +174,9 @@ Smoke testy budują i uruchamiają każdy z czterech programów C++ na małych k
 
 ## Wyniki i raporty
 
-W katalogu `docs/assets/` znajdują się wybrane wykresy użyte w głównym README. W katalogu `docs/reports/` znajdują się raporty PDF z poszczególnych etapów:
+W katalogu `docs/assets/` znajdują się wybrane wykresy użyte w głównym README. W katalogu `reports/` znajdują się raporty PDF z poszczególnych etapów:
 
 - `stage1_exact_heuristics_report.pdf`
 - `stage2_branch_and_bound_report.pdf`
 - `stage3_simulated_annealing_report.pdf`
 - `stage4_genetic_algorithm_report.pdf`
-
-## Zmiany wykonane przy odświeżeniu
-
-- Uporządkowano projekt do jednego katalogu `tsp-algorithms-benchmark`.
-- Nadano czytelne nazwy katalogom etapów.
-- Przeniesiono rdzeń etapów 1 i 2 do C++.
-- Dodano szybkie smoke testy C++ dla wszystkich czterech etapów oraz dokumentację `docs/TESTING_PL.md`.
-- Usunięto z finalnej wersji stare archiwa, środowisko `.venv`, `__pycache__`, buildy i pełne kopie robocze.
-- Dodano spójne README w stylu portfolio.
-- Dodano polską dokumentację projektu.
-- Dodano rootowy `Makefile` z komendami startowymi.
-- Dodano `.gitignore` i `.editorconfig`.
-- Zebrano raporty PDF w `docs/reports/`.
-
-## Rekomendowany opis repozytorium na GitHubie
-
-Krótki opis:
-
-```text
-Four-stage benchmark of exact algorithms, heuristics and metaheuristics for TSP and ATSP problems.
-```
-
-Tematy:
-
-```text
-tsp, atsp, algorithms, branch-and-bound, simulated-annealing, genetic-algorithm, tsplib, cpp, benchmark
-```

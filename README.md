@@ -5,10 +5,11 @@
 **Four-stage benchmark of exact algorithms, heuristics and metaheuristics for symmetric and asymmetric Travelling Salesman Problem instances.**
 
 <p>
-  <img src="https://img.shields.io/badge/C%2B%2B-17%2F20-7C3AED?style=for-the-badge&logo=cplusplus&logoColor=white" alt="C++17/20">
-  <img src="https://img.shields.io/badge/TSP%20%2F%20ATSP-benchmark-7C3AED?style=for-the-badge" alt="TSP / ATSP">
-  <img src="https://img.shields.io/badge/TSPLIB-VLSI-1F1733?style=for-the-badge" alt="TSPLIB and VLSI">
-  <img src="https://img.shields.io/badge/CSV-results-7C3AED?style=for-the-badge" alt="CSV results">
+  <img src="https://img.shields.io/badge/C%2B%2B-17%2F20-1F6F78?style=for-the-badge&logo=cplusplus&logoColor=white" alt="C++17/20">
+  <img src="https://img.shields.io/badge/TSP%20%2F%20ATSP-benchmark-1F6F78?style=for-the-badge" alt="TSP / ATSP">
+  <img src="https://img.shields.io/badge/TSPLIB-VLSI-14262A?style=for-the-badge" alt="TSPLIB and VLSI">
+  <img src="https://img.shields.io/badge/CSV-results-1F6F78?style=for-the-badge" alt="CSV results">
+  <img src="https://img.shields.io/badge/University-project-14262A?style=for-the-badge" alt="University project">
 </p>
 
 <p>
@@ -25,9 +26,9 @@
 
 ## About
 
-This repository is a refreshed academic project for the Design and Analysis of Algorithms course. It compares several approaches to the Travelling Salesman Problem across four stages: brute force and constructive heuristics, Branch and Bound, Simulated Annealing, and a Genetic Algorithm with local improvement. All core benchmark programs are implemented in C++.
+University project for the Design and Analysis of Algorithms course. It compares several approaches to the Travelling Salesman Problem across four stages: brute force and constructive heuristics, Branch and Bound, Simulated Annealing, and a Genetic Algorithm with local improvement. All core benchmark programs are implemented in C++.
 
-The original coursework has been reorganized into a GitHub-ready portfolio repository with clean stage folders, reproducible configs, CSV results, plots and Polish documentation.
+Each stage has its own folder with configs, CSV results and plots. Full documentation is in Polish.
 
 ## Project Scope
 
@@ -46,7 +47,7 @@ The original coursework has been reorganized into a GitHub-ready portfolio repos
 | Input handling | Simple matrices, generated complete graphs, TSPLIB TSP, TSPLIB ATSP and Waterloo VLSI-style instances. |
 | Measurement | Runtime, tour length, relative error, search-tree statistics, generation counts and group summaries. |
 | Reproducibility | Text configs and fixed seeds are included for each stage. |
-| Reporting | CSV outputs, charts and original academic PDF reports are included in `reports/`. |
+| Reporting | CSV outputs, charts and the PDF reports handed in for each stage are included in `reports/`. |
 
 ## Tech Stack
 
