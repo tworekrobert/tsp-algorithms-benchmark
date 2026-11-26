@@ -19,7 +19,7 @@ Ta komenda buduje i uruchamia krótkie testy dla wszystkich czterech etapów C++
 
 ## Wynik ostatniej weryfikacji
 
-Ostatnia lokalna weryfikacja przed spakowaniem repozytorium:
+Ostatnia lokalna weryfikacja:
 
 ```text
 make smoke
